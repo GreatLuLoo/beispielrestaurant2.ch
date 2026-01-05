@@ -3,9 +3,16 @@
 <head>
   <meta charset="UTF-8">
   <title>Standort – Bella Vita</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html">← Home</a>
+  </div>
+</header>
 
 <section class="content reveal">
   <h1>Öffnungszeiten & Standort</h1>
@@ -16,11 +23,12 @@
   </p>
 
   <iframe
-    class="map"
+    class="map reveal"
     src="https://www.google.com/maps?q=Zürich+Altstadt&output=embed"
     loading="lazy">
   </iframe>
 </section>
 
+<script src="js/reveal.js"></script>
 </body>
 </html>
